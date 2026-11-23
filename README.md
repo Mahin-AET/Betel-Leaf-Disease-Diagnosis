@@ -82,7 +82,7 @@ Threshold: 0.5
 | Mean False-Positive Area | 0.008985% |
 | Images with False Positives | 2 / 37 |
 
-Research Contribution
+## Research Contribution
 
 The framework integrates disease recognition with lesion localization and quantitative geometric characterization, providing complementary information beyond conventional image-level classification. It also evaluates the agreement between predicted and ground-truth lesion measurements.
 
