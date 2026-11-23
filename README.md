@@ -17,13 +17,15 @@ Classification model classfies the disease category > segmentation model segment
 
 1. **Disease Classification**: EfficientNet-B0 for three-class disease classification.
 
-2. **Leaf and Lesion Segmentation**: EfficientNet-B0 U-Net for pixel-level leaf and lesion segmentation.
+2. **Leaf and Lesion Segmentation**: An EfficientNet-B0 U-Net predicts binary masks for leaf regions and disease lesions.
 
-3. **Geometric Lesion Representation**: Extraction of lesion area, compactness, component count, spatial distribution, and other geometric characteristics.
+3. **Geometric Lesion Representation**: Image-processing techniques extract lesion area.
 
-4. **Integrated Diagnosis**: Sequential integration of classification, segmentation, and geometric feature extraction.
+4.  **Quantitative Lesion Assessment**: NumPy calculates the number of foreground pixels in the predicted leaf and lesion masks. Estimation of lesion burden as the percentage of predicted leaf area occupied by predicted lesions.
 
-5. **Quantitative Lesion Assessment**: Estimation of lesion burden as the percentage of predicted leaf area occupied by predicted lesions.
+5. **Integrated Diagnosis**: Sequential integration of classification, segmentation, and geometric feature extraction.
+
+
 
 The classification and segmentation models are independently trained and integrated during inference.
 
