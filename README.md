@@ -4,6 +4,12 @@
 
 This project presents an integrated deep learning framework for automated betel leaf disease classification, lesion segmentation, and quantitative lesion-burden estimation. Using RGB images of bacterial, fungal, and healthy betel leaves from Bangladesh, the framework combines disease classification, pixel-level lesion segmentation, and geometric–spatial feature extraction.
 
+<p align="center">
+  <img src="figures/workflow_diagram.png"
+       alt="Overall workflow of the integrated betel leaf disease diagnosis framework"
+       width="100%">
+</p>
+
 ## Research Pipeline
 
 Our integrated function successfully produced three outputs from one image:
