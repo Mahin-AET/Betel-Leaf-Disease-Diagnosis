@@ -61,6 +61,11 @@ EfficientNet-B0 was selected as the final classification model after comparison 
 | Macro Recall | 97.22% | 98.20% |
 | Macro-F1 | 97.27% | 98.20% |
 
+EfficientNet-B0 overall accuracy: 98.15% (106/108 images).
+
+<p align="center">
+  <img src="figures/stage7_confusion_matrix_v1.png" alt="EfficientNet-B0 classification confusion matrix" width="65%">
+</p>
 Segmentation performance:
 
 Threshold: 0.5
@@ -83,13 +88,19 @@ Threshold: 0.5
 | RMSE | 1.173 percentage points |
 | Mean Bias | -0.331 percentage points |
 
+<p align="center">
+  <img src="figures/stage7_lesion_burden_gt_pred_v1.png" alt="Ground-truth versus predicted lesion-burden agreement" width="75%">
+</p>
 ### Healthy-Image False Positives
 
 | Metric | Result |
 |:---|---:|
 | Mean False-Positive Area | 0.008985% |
 | Images with False Positives | 2 / 37 |
-
+### Representative Integrated Results
+<p align="center">
+  <img src="figures/stage7_ representative_integrated_results_v1.png" alt="Representative integrated disease classification and segmentation results" width="100%">
+</p>
 ## Research Contribution
 
 The framework integrates disease recognition with lesion localization and quantitative geometric characterization, providing complementary information beyond conventional image-level classification. It also evaluates the agreement between predicted and ground-truth lesion measurements.
