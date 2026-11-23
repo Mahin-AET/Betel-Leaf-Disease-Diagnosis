@@ -89,7 +89,7 @@ Threshold: 0.5
 | Mean Bias | -0.331 percentage points |
 
 <p align="center">
-  <img src="figures/stage7_lesion_burden_gt_pred_v1.png" alt="Ground-truth versus predicted lesion-burden agreement" width="75%">
+  <img src="figures/stage7_lesion_burden_gt_vs_pred_v1.png" alt="Ground-truth versus predicted lesion-burden agreement" width="75%">
 </p>
 ### Healthy-Image False Positives
 
@@ -99,7 +99,7 @@ Threshold: 0.5
 | Images with False Positives | 2 / 37 |
 ### Representative Integrated Results
 <p align="center">
-  <img src="figures/stage7_ representative_integrated_results_v1.png" alt="Representative integrated disease classification and segmentation results" width="100%">
+  <img src="figures/stage7_representative_integrated_results_v1.png" alt="Representative integrated disease classification and segmentation results" width="100%">
 </p>
 ## Research Contribution
 
