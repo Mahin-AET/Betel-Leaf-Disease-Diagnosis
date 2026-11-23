@@ -65,14 +65,22 @@ Threshold: 0.5
 | Precision | 0.9886 | 0.9485 |
 | Recall | 0.9963 | 0.8877 |
 
-LESION BURDEN ESTIMATION
-Pearson Correlation: .99
-MAE 0.29
-RMSE 0.95
+### Lesion-Burden Estimation (71 Diseased Test Images)
 
-HEALTHY IMAGE FALSE POSITIVES
-Mean FP area: 0.008985%
-Images with FP: 2 / 37
+| Metric | Result |
+|:---|---:|
+| Pearson Correlation | 0.989 |
+| Spearman Correlation | 0.965 |
+| MAE | 0.440 percentage points |
+| RMSE | 1.173 percentage points |
+| Mean Bias | -0.331 percentage points |
+
+### Healthy-Image False Positives
+
+| Metric | Result |
+|:---|---:|
+| Mean False-Positive Area | 0.008985% |
+| Images with False Positives | 2 / 37 |
 
 Research Contribution
 
