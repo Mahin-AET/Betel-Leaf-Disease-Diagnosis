@@ -12,8 +12,7 @@ This project presents an integrated deep learning framework for automated betel 
 
 ## Research Pipeline
 
-Our integrated function successfully produced three outputs from one image:
-Classification model classfies the disease category > segmentation model segments leaf and lesion area, and image processing calculates the number of lesion pixels and leaf pixels for semantic lesion burden calculation.
+The pipeline consists of following steps:
 
 1. **Disease Classification**: EfficientNet-B0 for three-class disease classification.
 
