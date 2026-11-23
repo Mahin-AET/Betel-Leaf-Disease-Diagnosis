@@ -91,6 +91,7 @@ Threshold: 0.5
 <p align="center">
   <img src="figures/stage7_lesion_burden_gt_vs_pred_v1.png" alt="Ground-truth versus predicted lesion-burden agreement" width="75%">
 </p>
+
 ### Healthy-Image False Positives
 
 | Metric | Result |
@@ -101,6 +102,7 @@ Threshold: 0.5
 <p align="center">
   <img src="figures/stage7_representative_integrated_results_v1.png" alt="Representative integrated disease classification and segmentation results" width="100%">
 </p>
+
 ## Research Contribution
 
 The framework integrates disease recognition with lesion localization and quantitative geometric characterization, providing complementary information beyond conventional image-level classification. It also evaluates the agreement between predicted and ground-truth lesion measurements.
